@@ -397,8 +397,8 @@
               <artifactId>google-oauth-client-jetty</artifactId>
             </exclusion>
           <exclusion>
-            <groupId>javax.activation</groupId>
-            <artifactId>activation</artifactId>
+            <groupId>jakarta.activation</groupId>
+            <artifactId>jakarta.activation-api</artifactId>
         </exclusion>
           </exclusions>
         </dependency>
@@ -470,8 +470,8 @@
         <!-- conflicts with com.sun.activation:jakarta.activation:jar:1.2.1 in Enforcer banDuplicatedClasses rule-->
         <exclusions>
           <exclusion>
-            <groupId>javax.activation</groupId>
-            <artifactId>activation</artifactId>
+            <groupId>jakarta.activation</groupId>
+            <artifactId>jakarta.activation-api</artifactId>
           </exclusion>
           <exclusion>
             <groupId>com.sun.xml.bind</groupId>
@@ -640,8 +640,8 @@
           <!-- conflicts with com.sun.activation:jakarta.activation:jar:1.2.1 in Enforcer banDuplicatedClasses rule-->
           <exclusions>
             <exclusion>
-              <groupId>javax.activation</groupId>
-              <artifactId>activation</artifactId>
+              <groupId>jakarta.activation</groupId>
+              <artifactId>jakarta.activation-api</artifactId>
             </exclusion>
           </exclusions>
         </dependency>
